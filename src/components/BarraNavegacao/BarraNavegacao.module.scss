@@ -53,9 +53,16 @@
         }
     }
 
-    .acoes {
+    .usuario {
+        align-items: center;
         display: flex;
         flex-grow: 1;
         justify-content: flex-end;
+
+        .conta {
+            color: inherit;
+            padding: 0.625rem;;
+            text-decoration: none;
+        }
     }
 }
