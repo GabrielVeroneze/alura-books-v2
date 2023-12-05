@@ -4,12 +4,12 @@ interface ContaNavegacaoProps {
     texto: string
     imagem: string
     imagemAlt: string
-    abrirModal: () => void
+    onClick: () => void
 }
 
-const ContaNavegacao = ({ texto, imagem, imagemAlt, abrirModal }: ContaNavegacaoProps) => {
+const ContaNavegacao = ({ texto, imagem, imagemAlt, onClick }: ContaNavegacaoProps) => {
     return (
-        <button className={styles.botao} onClick={() => abrirModal()}>
+        <button className={styles.botao} onClick={() => onClick()}>
             <img src={imagem} alt={imagemAlt} />
             {texto}
         </button>
