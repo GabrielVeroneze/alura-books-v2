@@ -28,7 +28,7 @@ const AreaLogada = () => {
                         </Link>
                     </li>
                 </ul>
-                <div className="conteudo">
+                <div className={styles.conteudo}>
                     <Outlet />
                 </div>
             </section>

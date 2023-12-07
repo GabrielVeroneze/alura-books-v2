@@ -23,7 +23,7 @@ const Pedidos = () => {
             <h1 className={styles.titulo}>Meus pedidos</h1>
             {pedidos.map(pedido => (
                 <div className={styles.pedido} key={pedido.id}>
-                    <ul>
+                    <ul className={styles.dados}>
                         <li>
                             Pedido: <strong>{pedido.id}</strong>
                         </li>
@@ -46,7 +46,9 @@ const Pedidos = () => {
                             </strong>
                         </li>
                     </ul>
-                    <AbBotao texto="Detalhes" />
+                    <div className={styles.botao}>
+                        <AbBotao texto="Detalhes" />
+                    </div>
                 </div>
             ))}
         </section>
