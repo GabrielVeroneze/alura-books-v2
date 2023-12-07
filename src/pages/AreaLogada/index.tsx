@@ -8,22 +8,22 @@ const AreaLogada = () => {
             <section className={styles.painel}>
                 <ul className={styles.menu}>
                     <li className={styles.item}>
-                        <Link className={styles.link} to="/area-logada/pedidos">
+                        <Link className={styles.link} to="/minha-conta/pedidos">
                             Pedidos
                         </Link>
                     </li>
                     <li className={styles.item}>
-                        <Link className={styles.link} to="/area-logada/trocas">
+                        <Link className={styles.link} to="/minha-conta/trocas">
                             Trocas
                         </Link>
                     </li>
                     <li className={styles.item}>
-                        <Link className={styles.link} to="/area-logada/cupons">
+                        <Link className={styles.link} to="/minha-conta/cupons">
                             Cupons
                         </Link>
                     </li>
                     <li className={styles.item}>
-                        <Link className={styles.link} to="/area-logada/dados">
+                        <Link className={styles.link} to="/minha-conta/dados">
                             Seus dados
                         </Link>
                     </li>
