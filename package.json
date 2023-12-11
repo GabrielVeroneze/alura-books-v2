@@ -14,7 +14,8 @@
     "ds-alurabooks": "^0.5.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1"
+    "react-router-dom": "^6.20.1",
+    "spdy": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.3",
